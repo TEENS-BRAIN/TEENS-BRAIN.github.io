@@ -1,0 +1,423 @@
+body {
+    background-color: rgb(225, 225, 225);
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    background-color: whitesmoke;
+
+    width: 100%;
+    top: 0;
+    padding-left: 50px;
+
+    border-bottom: solid 1px grey;
+    box-shadow: 0 1px 7px black;
+
+    z-index: 90000;  
+}
+footer {
+    background-color: rgb(50, 50, 50);
+
+    padding-top: 15px;
+    padding-left: 50px;
+    bottom: 0;
+
+}
+
+h1 img {
+    vertical-align: bottom;
+    overflow: hidden;
+}
+h2 {
+    font-family: source-han-sans-japanese, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
+
+    display: inline-block;
+    background: linear-gradient(to right, #DE6A97, #E38867);
+    background: -webkit-linear-gradient(to right, #DE6A97, #E38867);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#menu a:link {
+    color: rgb(50, 50, 50);
+}
+#menu a:visited {
+    color: rgb(50, 50, 50);
+}
+#menu a:hover {
+    color: #DE6A97;
+}
+#menu a {
+    text-decoration: none;
+}
+#info a:link {
+    color: #06c755;
+}
+#info a:visited {
+    color: #06c755;
+}
+#info a:hover {
+    color: #DE6A97;
+}
+
+.students{
+    padding-top: 115px;
+}
+.information{
+    background-color: white;
+
+    padding-top: 100px;
+    padding-left: 30px;
+    width: 80%;
+    padding-bottom: 130px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo {
+    font-family: 'Arial Black';
+    font-size: 40px;
+    float: left;
+    color: rgb(50, 50, 50);
+}
+.logo-w {
+    font-family: 'Arial Black';
+    font-size: 23px;
+    float: left;
+    color: white;
+}
+.menu {
+    display:flex;
+}
+.menu-text {
+    font-family: 'メイリオ';
+    text-align: right;
+    padding-top: 75px;
+    font-weight: bold;
+    float: right;
+}
+.flex {
+    display: flex;
+}
+.flex-w {
+    display: flex;
+    align-items: center;
+}
+.info-text {
+    font-family: source-han-sans-japanese, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(50, 50, 50);
+
+    border-left: solid 1px gray;
+    padding-left: 20px;
+
+    margin: 0 0 0 20px;
+    padding-right: 20px;
+    width: 500px;
+}
+.c {
+    color: rgb(139, 139, 139);
+}
+.mob {
+    display: none;
+}
+.tab {
+    display: none;
+}
+
+@media screen and (max-width: 959px) {
+    .pc {
+        display: none;
+    }
+    .mob {
+        display: none;
+    }
+    .tab {
+        display: block;
+    }
+
+    body {
+        background-color: white;
+        margin: 0;
+    }
+    
+    header {
+        position: fixed;
+        background-color: whitesmoke;
+    
+        width: 100%;
+        top: 0;
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+        border-bottom: solid 1px grey;
+        box-shadow: 0 1px 7px black;
+    
+        z-index: 90000;  
+    }
+    footer {
+        background-color: rgb(50, 50, 50);
+    
+        padding-top: 15px;
+        padding-left: 20px;
+        bottom: 0;
+    
+    }
+    
+    h1 img {
+        vertical-align: middle;
+        /*overflow: hidden;*/
+    }
+    h2 {
+        font-family: source-han-sans-japanese, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 45px;
+    
+        display: inline-block;
+        background: linear-gradient(to right, #DE6A97, #E38867);
+        background: -webkit-linear-gradient(to right, #DE6A97, #E38867);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    #menu a:link {
+        color: rgb(50, 50, 50);
+    }
+    #menu a:visited {
+        color: rgb(50, 50, 50);
+    }
+    #menu a:hover {
+        color: #DE6A97;
+    }
+    #menu a {
+        text-decoration: none;
+    }
+    #info a:link {
+        color: #06c755;
+    }
+    #info a:visited {
+        color: #06c755;
+    }
+    #info a:hover {
+        color: #DE6A97;
+    }
+    
+    .students{
+        padding-top: 140px;
+    }
+    .information{
+        background-color: white;
+    
+        padding-top: 100px;
+        padding-left: 20px;
+        width: 90%;
+        padding-bottom: 130px;
+    
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo {
+        font-family: 'Arial Black';
+        font-size: 30px;
+        float: left;
+        color: rgb(50, 50, 50);
+    }
+    .logo-w {
+        font-family: 'Arial Black';
+        font-size: 25px;
+        float: left;
+        color: white;
+    }
+    /*.menu {
+        display:flex;
+    }*/
+    .menu-text {
+        font-family: 'メイリオ';
+        font-size: 20px;
+        text-align: right;
+        padding-top: 30px;
+        font-weight: bold;
+        float: right;
+    }
+    .flex {
+        display: flex;
+    }
+    .flex-w {
+        display: flex;
+        align-items: center;
+    }
+    .flex-m {
+        display: flex;
+        align-items: baseline;
+    }
+    .info-text {
+        font-family: source-han-sans-japanese, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 25px;
+        border-left: none;
+        margin: 0;
+        padding-left: 0;
+        color: rgb(50, 50, 50);
+        padding-right: 20px;
+        width: 90%;
+    }
+    .c {
+        color: rgb(139, 139, 139);
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .pc {
+        display: none;
+    }
+    .mob {
+        display:block;
+    }
+    .tab {
+        display: none;
+    }
+
+    body {
+        background-color: white;
+        margin: 0;
+    }
+    
+    header {
+        position: fixed;
+        background-color: whitesmoke;
+    
+        width: 100%;
+        top: 0;
+        padding-left: 10px;
+        padding-top: 0px;
+        padding-bottom: 5px;
+    
+        border-bottom: solid 1px grey;
+        box-shadow: 0 1px 7px black;
+    
+        z-index: 90000;  
+    }
+    footer {
+        background-color: rgb(50, 50, 50);
+    
+        padding-top: 15px;
+        padding-left: 20px;
+        bottom: 0;
+    
+    }
+    
+    h1 img {
+        vertical-align: middle;
+        /*overflow: hidden;*/
+    }
+    h2 {
+        font-family: source-han-sans-japanese, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 20px;
+    
+        display: inline-block;
+        background: linear-gradient(to right, #DE6A97, #E38867);
+        background: -webkit-linear-gradient(to right, #DE6A97, #E38867);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    #menu a:link {
+        color: rgb(50, 50, 50);
+    }
+    #menu a:visited {
+        color: rgb(50, 50, 50);
+    }
+    #menu a:hover {
+        color: #DE6A97;
+    }
+    #menu a {
+        text-decoration: none;
+    }
+    #info a:link {
+        color: #06c755;
+    }
+    #info a:visited {
+        color: #06c755;
+    }
+    #info a:hover {
+        color: #DE6A97;
+    }
+    
+    .students{
+        padding-top: 65px;
+    }
+    .information{
+        background-color: white;
+    
+        padding-top: 100px;
+        padding-left: 20px;
+        width: 90%;
+        padding-bottom: 130px;
+    
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo {
+        font-family: 'Arial Black';
+        font-size: 14px;
+        float: left;
+        color: rgb(50, 50, 50);
+    }
+    .logo-w {
+        font-family: 'Arial Black';
+        font-size: 15px;
+        float: left;
+        color: white;
+    }
+    /*.menu {
+        display:flex;
+    }*/
+    .menu-text {
+        font-family: 'メイリオ';
+        font-size: 10px;
+        text-align: right;
+        padding-top: 30px;
+        font-weight: bold;
+        float: right;
+    }
+    .flex {
+        display: flex;
+    }
+    .flex-w {
+        display: flex;
+        align-items: center;
+    }
+    .flex-m {
+        display: flex;
+        align-items: baseline;
+    }
+    .info-text {
+        font-family: source-han-sans-japanese, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 15px;
+        border-left: none;
+        margin: 0;
+        padding-left: 0;
+        color: rgb(50, 50, 50);
+        padding-right: 20px;
+        width: 80%;
+    }
+    .c {
+        color: rgb(139, 139, 139);
+        font-size: 10px;
+    }
+}
