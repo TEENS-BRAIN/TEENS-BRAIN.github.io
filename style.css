@@ -17,10 +17,10 @@ header {
     z-index: 90000;  
 }
 footer {
-    background-color: rgb(50, 50, 50);
+    background-color: #DE6A97;
 
-    padding-top: 15px;
-    padding-left: 50px;
+    padding-top: 10px;
+    padding-left: 30px;
     bottom: 0;
 
 }
@@ -79,13 +79,17 @@ h2 {
     margin-right: auto;
 }
 .logo {
-    font-family: 'Arial Black';
+    font-family: acumin-pro-wide, sans-serif;
+    font-weight: 800;
+    font-style: italic;
     font-size: 40px;
     float: left;
     color: rgb(50, 50, 50);
 }
 .logo-w {
-    font-family: 'Arial Black';
+    font-family: acumin-pro-wide, sans-serif;
+    font-weight: 800;
+    font-style: italic;
     font-size: 23px;
     float: left;
     color: white;
@@ -94,10 +98,11 @@ h2 {
     display:flex;
 }
 .menu-text {
-    font-family: 'メイリオ';
+    font-family: source-han-sans-japanese, sans-serif;
+    font-weight: 500;
+    font-style: normal;
     text-align: right;
     padding-top: 75px;
-    font-weight: bold;
     float: right;
 }
 .flex {
@@ -105,7 +110,7 @@ h2 {
 }
 .flex-w {
     display: flex;
-    align-items: center;
+    align-items: end;
 }
 .info-text {
     font-family: source-han-sans-japanese, sans-serif;
@@ -122,7 +127,7 @@ h2 {
     width: 500px;
 }
 .c {
-    color: rgb(139, 139, 139);
+    color: rgb(194, 194, 194);
 }
 .mob {
     display: none;
@@ -163,9 +168,9 @@ h2 {
         z-index: 90000;  
     }
     footer {
-        background-color: rgb(50, 50, 50);
+        background-color: #DE6A97;
     
-        padding-top: 15px;
+        padding-top: 10px;
         padding-left: 20px;
         bottom: 0;
     
@@ -177,7 +182,7 @@ h2 {
     }
     h2 {
         font-family: source-han-sans-japanese, sans-serif;
-        font-weight: 500;
+        font-weight: 900;
         font-style: normal;
         font-size: 45px;
     
@@ -225,13 +230,17 @@ h2 {
         margin-right: auto;
     }
     .logo {
-        font-family: 'Arial Black';
+        font-family: acumin-pro-wide, sans-serif;
+        font-weight: 800;
+        font-style: italic;
         font-size: 30px;
         float: left;
         color: rgb(50, 50, 50);
     }
     .logo-w {
-        font-family: 'Arial Black';
+        font-family: acumin-pro-wide, sans-serif;
+        font-weight: 800;
+        font-style: italic;
         font-size: 25px;
         float: left;
         color: white;
@@ -240,11 +249,12 @@ h2 {
         display:flex;
     }*/
     .menu-text {
-        font-family: 'メイリオ';
-        font-size: 20px;
+        font-family: source-han-sans-japanese, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 21px;
         text-align: right;
         padding-top: 30px;
-        font-weight: bold;
         float: right;
     }
     .flex {
@@ -271,7 +281,7 @@ h2 {
         width: 90%;
     }
     .c {
-        color: rgb(139, 139, 139);
+        color: rgb(194, 194, 194);
         font-size: 15px;
     }
 }
@@ -309,10 +319,10 @@ h2 {
         z-index: 90000;  
     }
     footer {
-        background-color: rgb(50, 50, 50);
+        background-color: #DE6A97;
     
-        padding-top: 15px;
-        padding-left: 20px;
+        padding-top: 7px;
+        padding-left: 15px;
         bottom: 0;
     
     }
@@ -323,7 +333,7 @@ h2 {
     }
     h2 {
         font-family: source-han-sans-japanese, sans-serif;
-        font-weight: 500;
+        font-weight: 900;
         font-style: normal;
         font-size: 20px;
     
@@ -371,14 +381,18 @@ h2 {
         margin-right: auto;
     }
     .logo {
-        font-family: 'Arial Black';
-        font-size: 14px;
+        font-family: acumin-pro-wide, sans-serif;
+        font-weight: 800;
+        font-style: italic;
+        font-size: 16px;
         float: left;
         color: rgb(50, 50, 50);
     }
     .logo-w {
-        font-family: 'Arial Black';
-        font-size: 15px;
+        font-family: acumin-pro-wide, sans-serif;
+        font-weight: 800;
+        font-style: italic;
+        font-size: 13px;
         float: left;
         color: white;
     }
@@ -386,11 +400,12 @@ h2 {
         display:flex;
     }*/
     .menu-text {
-        font-family: 'メイリオ';
+        font-family: source-han-sans-japanese, sans-serif;
+        font-weight: 500;
+        font-style: normal;
         font-size: 10px;
         text-align: right;
         padding-top: 30px;
-        font-weight: bold;
         float: right;
     }
     .flex {
@@ -398,7 +413,7 @@ h2 {
     }
     .flex-w {
         display: flex;
-        align-items: center;
+        align-items: baseline;
     }
     .flex-m {
         display: flex;
@@ -406,7 +421,7 @@ h2 {
     }
     .info-text {
         font-family: source-han-sans-japanese, sans-serif;
-        font-weight: 300;
+        font-weight: 500;
         font-style: normal;
         font-size: 15px;
         border-left: none;
@@ -417,7 +432,7 @@ h2 {
         width: 80%;
     }
     .c {
-        color: rgb(139, 139, 139);
+        color: rgb(194, 194, 194);
         font-size: 10px;
     }
 }
